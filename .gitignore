@@ -1,0 +1,23 @@
+# Секреты и локальная конфигурация
+.env
+
+# Сессионные данные IAAI (генерируются при работе)
+iaai_cookies.json
+
+# Постоянные профили Chrome (куки/fingerprint Incapsula)
+chrome_profiles/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Отладочные дампы
+debug_*.html
+*_page_source.html
+
+# IDE
+.vscode/
+.idea/
